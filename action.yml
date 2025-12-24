@@ -1,0 +1,19 @@
+name: 'PR Welcome Greeter'
+description: 'Automatically adds a friendly welcome comment to new pull requests'
+author: 'Your Name'
+branding:
+  icon: 'message-circle'
+  color: 'blue'
+
+inputs:
+  github-token:
+    description: 'GitHub token for authentication'
+    required: true
+  welcome-message:
+    description: 'Custom welcome message for new contributors'
+    required: false
+    default: 'Thanks for opening this pull request! 🎉 A maintainer will review it soon.'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
