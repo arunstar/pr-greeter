@@ -1,6 +1,6 @@
 name: 'PR Welcome Greeter'
 description: 'Automatically adds a friendly welcome comment to new pull requests'
-author: 'Your Name'
+author: 'Arun'
 branding:
   icon: 'message-circle'
   color: 'blue'

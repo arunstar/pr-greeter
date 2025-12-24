@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Welcome PR
-        uses: your-username/pr-welcome-greeter@v1
+        uses: arunstar/pr-welcome-greeter@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           welcome-message: 'Thanks for your contribution! A maintainer will review this soon.'
@@ -40,7 +40,7 @@ jobs:
 ## Example with Custom Message
 ```yaml
 - name: Welcome PR
-  uses: your-username/pr-welcome-greeter@v1
+  uses: arunstar/pr-welcome-greeter@v1
   with:
     github-token: ${{ secrets.GITHUB_TOKEN }}
     welcome-message: |
